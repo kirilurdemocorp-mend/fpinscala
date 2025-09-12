@@ -85,7 +85,7 @@ jobs:
         uses: sbt/setup-sbt@v1
 
       - name: Download target directories (3.3.4)
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           name: target-${{ matrix.os }}-3.3.4-${{ matrix.java }}
 
